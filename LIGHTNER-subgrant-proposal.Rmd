@@ -1,0 +1,230 @@
+---
+title: \LARGE \textbf{Investigating the Evolution of Science and Religion as Adaptive Knowledge Specialization}
+author: \emph{Aaron Lightner, Edward Hagen}
+output: 
+  bookdown::pdf_document2:
+    toc: true
+    number_sections: true
+  includes:
+    in_header: latex/header.tex
+    before_body: latex/before_body.tex
+    after_body: latex/after_body.tex
+subparagraph: yes
+header-includes: |
+  \usepackage{titlesec}
+  \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+  \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+  \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+bibliography: bibfiles/lkj1.bib
+csl: bibfiles/nature.csl
+---
+\pagenumbering{gobble}
+\newpage
+\pagenumbering{arabic}
+
+# Executive Summary
+
+The proposed study investigates religion and science by approaching them as products of a cognitively integrated system whose evolved function is to acquire socioecological knowledge relevant to fitness. According to this hypothesis, only in the last century or two have "science" and "religion" become distinct knowledge systems. The proposed research will focus on the hypothesis that acquiring expertise in particular knowledge domains is, in part, an adaptive strategy to provide benefits to social partners, and that partners evaluate experts in a biological market based on evidence (feedback and efficacy) and social considerations (authority, consensus, and prestige). It specifically examines how individuals evaluate religious and scientific experts in cultures where a separation between religion and science is unclear and unintuitive. 
+
+The study is an evolutionary anthropology PhD project carried out under the supervision of Dr. Edward Hagen, and has three interrelated study components: (1) fieldwork among the Maasai, a population currently undergoing rapid changes in religious and scientific beliefs (sect. 4), (2) cross-cultural analyses (sect. 5), and (3) computational modeling (sect. 6). The fieldsite presents a transient opportunity to observe competition between traditional, Christian, and scientific belief systems. The cross-cultural analyses help understand how widespread various types of expertise appear in ethnographic descriptions of small-scale societies. Computational modeling formalizes our ideas, contributing to ongoing debates about specialized expertise and efficacious knowledge in small-scale societies. Priorities include developing theory, creating avenues for collaborative postdoctoral research, and communicating our results to the public.
+
+# Research Questions and Hypotheses
+
+The proposed study approaches the apparent distinction between religious and scientific beliefs as historically novel, and investigates the following research questions:
+
+1. What explains the cross-cultural recurrence of specialized expertise in religion and science?
+2. How and why do people acquire religious and scientific beliefs, especially in societies with competing belief systems?
+
+We test the following interrelated hypotheses: (i) specialized expertise in religion and science represents a costly investment in adaptive knowledge and services, (ii) people believe religious and scientific experts based on efficacy and consensus about trustworthiness, and (iii) this establishes a biological market for mutually beneficial cognitive divisions of labor. Our scope includes material causes and social and cognitive dynamics of religion and science, clarifying current debates about the evolution of culture and cognition.
+
+# Context of the Proposed Study
+
+In the history of anthropology, religion and magic are routinely defined in contrast to science and reason [@frazerGoldenBoughStudy2003; @malinowskiArgonautsWesternPacific1932; @mcgeeAnthropologicalTheoryIntroductory2003]. Many accept that this distinction describes naturally separable types of thinking, with similarly separate explanations [@gouldRocksAgesScience2011; @mccauleyWhyReligionNatural2013]. But is this separation cross-culturally intuitive, natural, and useful for explaining the evolution of religious and scientific belief systems? 
+
+In an apocryphal story about *Mécanique Céleste*, Napoleon asked Pierre-Simon Laplace why he made no mention of a Creator, to which Laplace notably replied, "I had no need of that hypothesis" [@floodGreatMathematicians2012]. It is also true that many founders of modern science, such as Copernicus, Kepler, and Newton, viewed their work as supplying evidence for a divine and transcendent designer. Indeed, it is not obvious that the conceptual distinction between religion and science runs deeper than a mere *nominal* separation, emerging perhaps 200 years ago in Western culture. In non-Western societies, anthropologists have documented uses of magic and religion to cope with risk, uncertainty, and misfortune [@evans-pritchardNuerDescriptionModes1940; @frazerGoldenBoughStudy2003; @malinowskiArgonautsWesternPacific1932; @spencerMaasaiMatapatoStudy2004], often integrating natural and supernatural explanations. For example, Zande farmers understand natural causes behind unfortunate granary collapses (termites), but particular *occurrences* demand supernatural explanation (witchcraft) [@evans-pritchardWitchcraftOraclesMagic1976]; see [@spencerMaasaiMatapatoStudy2004; @spencerTimeSpaceUnknown2004; @tuckerRiskTimePreferences2017] for similar patterns. Formally educated Westerners also resort to ritual during high-stakes uncertainty [@gmelchBaseballMagic1971], use magical thinking in experiments [@rozinOperationLawsSympathetic1986], and merge natural and supernatural explanations for life, death, and disease [@legareCoexistenceNaturalSupernatural2012].
+
+The proposed study will therefore aim to clarify an evolutionary explanation for religious and scientific beliefs as nominally distinct, but cognitively integrated, meaning-making systems. It will examine adaptive knowledge domains and services provided by specialized experts (e.g., healers, prophets, scientists, academics): Are they efficacious? When multiple experts are available, how do people choose who to believe?
+
+## Why invest in religious and scientific knowledge?
+
+Culture is generally adaptive but requires at least some costly investments in producing locally adaptive knowledge [@aokiEmergenceSocialLearning2005; @boydWhyCultureCommon1996; @henrichEvolutionCulturalEvolution2003; @enquistCriticalSocialLearning2007; @rendellRogersParadoxRecast2010; @rogersDoesBiologyConstrain1988]. Humans occupy a "cognitive niche", deploying inference, producing knowledge, and cooperating in highly interdependent social groups [@pinkerCognitiveNicheCoevolution2010a; @toobyReconstructionHominidEvolution1987]. Knowledge and decision-making capacities vary substantially within societies. For adults, much of this variation might be explained by mutually beneficial cognitive divisions of labor among sexes in households [@damingerCognitiveDimensionHousehold2019; @tushinghamWhyForagersChoose2013] and other cooperative partners [@alexanderEpistemicLandscapesOptimal2015b; @hurtadoAcheLifeHistory1996; @mercierEnigmaReason2017; @couzinEffectiveLeadershipDecisionmaking2005a]. 
+
+Can the recurrence of costly investments in specialized expertise be explained by a recurring demand for adaptive knowledge and services? This is highly compatible with existing evolutionary theories about divisions of labor, exchange for prestige and valuable services, and biological markets [@toobyFriendshipBankerParadox1996a; @lyonSexualSelectionForm2012a; @noeBiologicalMarketsSupply1994a; @priceEvolutionLeaderFollower2014; @price2015service]. Religious and scientific leaders often have extensive or obscure ethnobiological and ethnomedical knowledge [@sugiyamaSocialRolesPrestige2003; @blackwell2009life; @heinrichEthnopharmacologyDrugDiscovery2001; @purzyckiOurGodsVariation2011; @purzyckiTyvanCherEezi2011], traditional wisdom, and the ability to detect environmental patterns [@andritzkySociopsychotherapeuticFunctionsAyahuasca1989; @purzyckiFindingMindsNatural2012]. They can also be leaders who resolve conflicts [@winkelmanShamansOtherMagicoReligious1990; @hodgsonChurchWomenGendered2005; @spencerTimeSpaceUnknown2004], help reach insightful compromises [@garfieldEvolutionaryModelsLeadership2019; @hagenLeadershipPrestigeMothering2019] and use randomization devices, such as oracles, miracles, and judicial ordeals to efficiently solve otherwise intractable conflicts [@harmgartMiracleRandomizationDevice2006a; @leesonOracles2014a].
+
+## Why believe religious and scientific experts?
+
+Cultural traditions are often adaptive solutions to recurring challenges in a particular socioecological environment [@aktipisCooperationUncertainWorld2016; @lansingAdaptiveSelforganizationBali2017; @lansingEmergentPropertiesBalinese1993; @purzyckiCognitiveEcologyReligious2012; @rappaportPigsAncestorsRitual1968; @birdNicheConstructionDreaming2013; @johnsonGodWatchingYou2015; @purzyckiOurGodsVariation2011; @purzyckiTyvanCherEezi2011]. The mechanisms explaining this pattern are less clear. Communication is central to culture, but it is cognitively demanding for novel and unintuitive ideas [@sperberRelevanceCommunicationCognition2001; @sperberExplainingCultureNaturalistic1996; @mercierWhyHumansReason2011a], and constrained by power dynamics, conflicts of interest, and social organization [@mercierEnigmaReason2017; @mercierObstaclesSpreadUnintuitive2019a; @mesoudiEvolutionIndividualCultural2016]. This is especially true for religion and science, which rely on unintuitive concepts, deference to leaders, and finding knowledgeable, trustworthy sources. 
+
+How do people decide who to believe, especially if they are susceptible to exploitation? Some emphasize finding efficacious knowledge and services [@blackwellShamanismEfficaciousExceptionalism2018], inferring trustworthiness of authoritative sources from consensus and experience [@sorensenCognitiveTheoryMagic2007; @sperberExplainingCultureNaturalistic1996; @mercierWhyHumansReason2011a]. Others emphasize social learning biases, e.g., conformist, prestige, success [@henrichEvolutionConformistTransmission1998; @henrichEvolutionCulturalEvolution2003; @mcelreathExistenceAimingOutside2008; @richersonNotGenesAlone2005], culturally evolved learning strategies [@klineHowLearnTeaching2015; @klineTeachingLifeHistory2013; @mesoudiEvolutionIndividualCultural2016a], and deferring to leaders with overlapping interests [@singhSelfInterestDesignRules2017]. Despite much debate about these emphases [@henrichModelingCognitionCulture2002; @richersonNotGenesAlone2005; @sperberCognitiveFoundationsCultural2004], researchers are increasingly optimistic about their compatibility [@acerbiIfWeAre2015; @wertzPathwaysCognitiveDesign2019]. This study therefore uses a pluralistic approach to the question of how people acquire beliefs from, and choose to defer to, religious and scientific experts within groups, particularly when their ideas are unintuitive.
+
+## Cognitive changes in changing environments
+
+Common approaches to culture change emphasize material incentives and constraints on behavior [@ensmingerMakingMarketInstitutional1992; @ensmingerTransactionCostsIslam1997; @kasperWhoHelpsWhy2015a; @lansingEmergentPropertiesBalinese1993; @northInstitutionsInstitutionalChange1990; @paciottiSungusunguRolePreexisting2004; @richersonNotGenesAlone2005; @yamagishiInstitutionalApproachCulture2009]. Others focus on cognition, such as covarying god concepts and environmental demands [@purzyckiCognitiveEcologyReligious2012; @purzyckiEcologicalTheoryGods2016; @purzyckiOurGodsVariation2011]. This study goes beyond material causes to include social and cognitive dynamics within societies. Can we observe an emerging religion-science distinction in Westernized small-scale societies? How do traditional belief systems accommodate novel concepts from competing belief systems, such as Christianity or some scientific research? Religion and science often use complex and high-level *reflective beliefs* about beliefs that are grounded in basic cognitive domains, but are also unintuitive and contradictory rationalizations [@boyerMindsMakeSocieties2018; @petersenEvolutionCognitionHistorya]. Such interpretations of one's own thoughts and behaviors are constrained by available religious or scientific cultural models [@atranCognitiveFoundationsNatural1993; @boyerMindsMakeSocieties2018; @cushmanRationalizationRational2019; @sorensenCognitiveTheoryMagic2007]. (Do I recognize my sympathetic magical thinking as "superstition"? Do I use it to infer witchcraft?) 
+
+In many modern small-scale societies, reflective beliefs integrate concepts from both traditional and Western belief systems, including beliefs about science [@atranCognitiveFoundationsNatural1993; @haydenShamansSorcerersSaints2004; @strangDiscoveryMeaningsExpressions2014]. The distribution of such beliefs likely varies within a population. Exploring the distribution of beliefs, alongside our hypothesis tests, will deepen our understanding of how experts communicate and create consensus about new ideas, and how people decide to believe them. The fieldwork component of this study therefore combines social network analysis [@easleyNetworksCrowdsMarkets2010] with rich, precise cognitive descriptions of reflective beliefs [@kronenfeldCompanionCognitiveAnthropology2011], at an established fieldsite undergoing substantial cultural changes.
+
+# Fieldwork Component Study Population: Maasai in Monduli
+
+The fieldwork component of this study will test our hypotheses and document cultural, economic, and cognitive changes in a small-scale society. Fieldwork will take place at an established fieldsite with Maasai pastoralists in Eluwai village (est. pop. 2850) in Monduli district, northern Tanzania. The project is informed by, and collaborates with, a Maasai junior elder from Eluwai village. Maasai in Monduli are currently experiencing substantial changes to their livelihood and cultural identity, creating social conflict within the community and among prominent suppliers of religious and scientific knowledge in times of uncertainty. This can be described in terms of traditional Maasai culture vs. the current Maasai reality.
+
+## Traditional Maasai culture
+
+Maasai culture descends from East African pastoralist groups dating to at least 3000 BCE [@ehretCivilizationsAfricaHistory2002; @spearBeingMaasaiEthnicity1993]. Many traditions are adapted to semi-arid ecologies [@dahlHavingHerdsPastoral1976; @moritzSocialRiskManagementStrategies2011] and imbued with religious connotations [@cronkSacrednessImpliedThreat2018; @evans-pritchardNuerDescriptionModes1940]. Social organization is militaristic, and largely built around recurring pastoralist challenges in the region. Continuous movement ensures grazing [@buttEcologyMobilityLabour2016a; @buttPastoralHerdManagement2009a], *osotua* sharing pools risk of cattle losses [@aktipisCooperationUncertainWorld2016; @aktipisRiskPoolingHerdSurvival2011; @cronkInfluenceCulturalFraming2007] and aids bridewealth [@spencerSamburuStudyGerontocracy1965; @dohertyStructuralAnalysisSamburu1977], and strong defenses prevent cattle raids and predation [@spearBeingMaasaiEthnicity1993]. Elders collectively rule, and warriors (*murran*) live in *manyatta* camps to guard the community, remain celibate, and enforce resource sharing [@jacobsTraditionalPoliticalOrganization1965; @spencerMaasaiMatapatoStudy2004; @spencerSamburuStudyGerontocracy1965; @spencerTimeSpaceUnknown2004]. They must prove themselves to earn social capital (*nkanyit*, honor and respect), and the *eunoto* graduation ceremony cements their bonds, giving basis for *osotua* stock friendships [@perlovTradingInfluenceSocial1987]. Cultural values are defined by an ideal of *entalapu*, or dependence on cattle, whereas subsistence hunting is taboo and farming is not ideal [@molMaaDictionaryMaasai1978; @galatyjohngBeingMaasaiBeing1982]. Natural and supernatural beliefs about social and natural worlds are process-driven and largely inseparable. Maasai culture, cattle, weather patterns, grasslands, and providence from *Enkai* ("God") are interconnected and symbolically represented in rituals [@hodgsonChurchWomenGendered2005; @spencerTimeSpaceUnknown2004; @stoksPerceptionRealityEastNilotic1989], such as *orpul* ceremonies for consuming meat and blood [@hodgsonChurchWomenGendered2005], offerings to sacred Mt Meru [@hollisNoteMasaiSystem1910; @jacobsTraditionalPoliticalOrganization1965; @spencerTimeSpaceUnknown2004], and ritual use of milk and grass while forging sacred *osotua* alliances [@cronkInfluenceCulturalFraming2007; @hollisMasaiTheirLanguage1905; @spencerSamburuStudyGerontocracy1965].
+
+When disasters or conflicts arise, Maasai traditionally turn to a religious specialist called the *laibon*, who varies in two important ways. First, a *prophet* laibon must be in the Loonkidongi lineage to inherit sorcery abilities. He is a valued social and political advisor, and interprets misfortune by casting stones from an oracle horn to read their positions with a secret numerology system [@spencerLoonkidongiProphetsMaasai1991b; @fratkinLaibonAnthropologistJourney2011; @spencerTimeSpaceUnknown2004]. Second, a *healer* laibon uses traditional plant and medical knowledge to make medicines [@rouletteEthnobiologyIllnessPerceptions2019], beverages, poisons, and psychoactive drugs [@garineDrinkingAnthropologicalApproaches2001; @rouletteMedicinalFoodsBeverages2018]. Laibon knowledge domains can overlap and are often conflated in the literature, but they are frequently distinct and allow for non-Loonkidongi laibon healers. Material resources are customarily given for laibon services, and an aspiring laibon can compete fiercely for patronage and influence. Laibon roles are tightly interwoven into the social customs, ceremonies, rituals, and broader religious worldview of Maasai people [@fratkinLaibonAnthropologistJourney2011; @PersonalCommunicationAnonymous2019; @spencerTimeSpaceUnknown2004].
+
+## Current Maasai reality
+
+As our Maasai informant puts it, "[Maasai] used to pray to nature, but now we pray to God" [@PersonalCommunicationAnonymous2019]. Missionizing efforts with the Maasai were relatively unsuccessful for about a century [@hodgsonChurchWomenGendered2005; @rigbyIdeologyReligionIlparakuyoMaasai1989], but now churches have attention and loyalty, creating a "confusion of power" with the traditional laibon [@PersonalCommunicationAnonymous2019]. Our preliminary analyses [@caudellAntimicrobialUseVeterinary2017] of Maasai in Monduli support this, with $38\%$ Catholic Christian, $24\%$ Protestant Christian, and $38\%$ traditional believers ($N=34$).  Our informant describes, "[in Monduli], you can go to church at 10 am and not leave until 5 pm that day. On Sunday, you are in church all day, there is no food, and they ask for money throughout the service. The more you give, the more you will be blessed... I think it's like a business here" [@PersonalCommunicationAnonymous2019].
+
+Recent challenges, such as drought, yield polarizing supernatural interpretations in Monduli. The laibon and traditional believers claim that social transgressions and a turn from traditional cultural practices are causing misfortune, whereas Christians attribute it to the "satanic" laibon sorcery [@PersonalCommunicationAnonymous2019]. (It is not clear if this constitutes evidence of supernatural punishment by *Enkai* for traditional believers vs. God for Christians. This is pursued in our initial semi-structured interviews, possibly expanding current ideas about supernatural punishment [@purzyckiCognitiveEcologyReligious2012; @johnsonGodWatchingYou2015; @langMoralizingGodsImpartiality2019; @norenzayanBigGodsHow2015; @norenzayanCulturalEvolutionProsocial2016; @whitehouseComplexSocietiesPrecede2019].) On the other hand, natural “scientific” causes of misfortune in this region are no mystery. East African pastoralism is becoming unsustainable due to urbanization, widespread land conflict, and climate change [@homewoodDevelopmentEcologyMaasai1992; @homewoodStayingMaasaiPastoral2009; @mcpeakRiskSocialChange2011; @spencerPastoralContinuumMarginalization1998]. Despite the central role of cattle in Maasai culture, many must turn to agriculture, wage labor, and migration to nearby cities for educational or employment opportunities. 
+
+Maasai in Monduli provide a unique and transient research opportunity. Our preliminary analyses show that for five villages near Monduli, the percentage of households with viable subsistence-level herd sizes [@dahlHavingHerdsPastoral1976] ranges from $43\%$ to $52\%$ ($N=171$), whereas in Monduli it is only $20\%$ ($N=34$). Science policies are both a cause [@fratkinSustainabilityPastoralLivelihoods2003; @homewoodStayingMaasaiPastoral2009; @kaswamilaHumanWildlifeConflicts2009; @mcpeakRiskSocialChange2011; @spencerPastoralContinuumMarginalization1998] and solution [@bairdEffectWildlifeConservation2009; @lesorogolAssetBuildingCommunity2009a; @lesorogolTransformingInstitutionsPastoralists2003; @nelsonPaymentsEcosystemServices2010] for these modern challenges. Herders use novel herd management strategies, such as coordinating herd mobility to circumvent grazing restrictions [@buttEcologyMobilityLabour2016a; @buttPastoralHerdManagement2009a], but despite a continuing *entalapu* ideal and preference for pastoralism, there is high demand for agricultural knowledge, cash sales in nearby markets [@homewoodDevelopmentEcologyMaasai1992; @jandreauContinuityChangeSocialecological2016; @spencerPastoralContinuumMarginalization1998], education for wage labor, and other herding alternatives [@heckelsmillerKituritoEngurumaaWe2015; @homewoodStayingMaasaiPastoral2009; @PersonalCommunicationAnonymous2019; @spearMaasaiFarmersEvolution1992b]. Environmental scientists and economists help fund formal education, which might explain a tendency for Maasai children to explain concepts in more scientific terms than older Maasai [@rouletteEthnobiologyIllnessPerceptions2019]. They also help repurpose traditional sharing concepts like *osotua* to establish asset-building policies and common pool grazing schemes [@geerlingOsotuaFoundation; @lesorogolAssetBuildingCommunity2009a; @lesorogolTransformingInstitutionsPastoralists2003]. (Missionaries embrace a similar tactic, using *osotua* to translate the "covenant" between God and his followers [@elness-hansonGenerationalCursesPentateuch2017].) Scientific advisors on veterinary and agricultural practices have implemented programs with varying degrees of success [@caudellAntimicrobialUseVeterinary2017; @conroyMaasaiOxenAgriculture2001; @ilesInformationSharingWillingnesstopay2019], and while Western medicine is in high demand, access varies and people might fall back on laibon healers when Western medicine is unavailable or insufficient [@PersonalCommunicationAnonymous2019].
+
+## Fieldwork study aims
+
+This fieldwork component of the proposed research aims to understand which experts -- traditional, Christian, or scientific -- are consulted for each of several problem domains, such as conflict resolution or disease, and why they are chosen. The hypotheses applied to the fieldwork component are that (i) laibon healers, prophets, church leaders, and scientific advisors (henceforth *local experts*) provide efficacious knowledge and services in dedicated problem domains, (ii) people believe and rely on local experts based on their efficacy and consensus about their trustworthiness, and (iii) this establishes a cognitive division of labor, with conflict arising when domains overlap among local experts. We will explore how conflict and consensus about science, Christianity, and traditional Maasai beliefs reflect broader cultural changes in the region.
+
+## Fieldwork research design
+
+The proposed fieldwork component involves two phases. Phase 1 identifies knowledge domains and decision-making services provided by local experts, and perceptions of efficacy and trust, using systematic surveys with structured interviews to collect cognitive, social network, and socioeconomic data from a diverse adult sample of Maasai in Eluwai ($N=90-110$, power $>0.85-0.95$). Phase 2 uses cultural consensus methods in the identified knowledge and services domains from phase 1, measuring knowledge among experts relative to knowledge distribution in the broader population ($N=75-80$, power $>0.8-0.85$). Much of this research is necessarily exploratory, but supplmentary figures include some predictions (table 1) and results of our power analysis (figure 1). A more detailed walkthrough of our simulated data, power analysis, planned analyses, and survey drafts with structured and exploratory questions are available at [github.com/alightner/evoRelSci](https://github.com/alightner/evoRelSci). De-identified datasets will be linked to this same repository using Zenodo with a publishable doi link.
+
+### Phase 1
+
+Structured surveys will be designed to efficiently cover four interrelated aims. First, they ask about knowledge domains and decision-making services provided by local experts. Who is associated with medical, botanical, ecological, veterinary, social, political, and moral knowledge? Who would people go to for cures to un/common ailments, advice about cattle loss, environmental challenges, financial problems, social conflicts, veterinary or agricultural services, and interpretations of misfortune? How do people expect them to resolve these issues? Second, they ask about past experiences with, and perceptions of efficacy and trustworthiness of local experts. Does the participant trust local experts to effectively solve these problems? Do they think other people trust them? Did the local experts fix their problems when they had one? Third, interviews ask about traditional Maasai, Christian, and scientific concepts and rituals. This provides a rich, quantitative cognitive description of conflict and consensus in Eluwai, including reflective beliefs about competing local belief systems. Questions relate to conflict and consensus, traditional Maasai beliefs (described above), and separations of science and religion. Fourth, we collect social network and socioeconomic data. Multiple social networks will inform our respondent-driven sampling strategy [@bernardResearchMethodsAnthropology2011], eliciting lists of salient people in the community that the participants (vertices) trust, have *osotua* with, frequently visit, work with, and exchange news (edges are relationships). Socioeconomic, household, and demographic data include age set, types of wealth and wage labor, market integration, religious affiliation, investment in religious leaders, reliance on/access to Western medicine and agriculture, and formal education level.
+
+### Phase 2
+
+Cultural competence in various botanical, medical, and other local knowledge domains will be assessed using cultural consensus methods [@kronenfeldCompanionCognitiveAnthropology2011]. Specifically, we will develop a questionnaire based on results in phase 1, allowing us to measure how knowledge and expertise are truly distributed in the community relative to local experts. Phase 2 will occur shortly after phase 1 during the same fieldwork trip, and the sample will follow up with phase 1 participants plus identified local experts. 
+
+## Fieldwork data analysis
+
+Qualitative data will be evaluated using content analysis with the R Qualitative Data Analysis (RQDA) package [@huangRQDARbasedQualitative2016], and quantitative structured survey data will be analyzed, where appropriate, using Fisher's exact, chi-squared independence, and logistic regression tests on contingency tables comparing binary and discrete/categorical responses about local expert knowledge/services and corresponding problem domains [@kronenfeldCompanionCognitiveAnthropology2011]. As an example, support for the idea that oracles provide a randomization service in intractable social conflict [@leesonOracles2014a] will be tested comparing social vs. non-social problems addressed by laibon numerological stone readings vs. tithing in church. Other hypothesis tests use social network analyses in the igraph R package [@csardiIgraphSoftwarePackage2006]. On a "trust network" (who trusts whom?), we test local expert centrality, and predicted associations among individual probability of trust/belief in efficacy, perceived consensus in the community, and agreement among neighboring nodes [@leeHomophilyMinoritygroupSize2019a]. Cultural consensus analysis uses minimum residual factor analysis [@comrey1962minimum] on a correlation matrix for survey responses, resulting in domain-specific competence scores between 0 and 1 [@kronenfeldCompanionCognitiveAnthropology2011]. Relative competence in a knowledge domain is compared among local experts vs. random community samples using a Wilcoxon rank-sum test. See tables 1 and 2 for more detail about predictions and support criteria. 
+
+Exploratory analyses combine social networks with content analysis to analyze less predictable patterns and motivate future questions [@edgertonIndividualCulturalAdaptation1971]. For example, we compare beliefs and trustworthiness with centrality measures on multiple network types, such as *osotua* (cooperative resource exchange partnerships [@cronkInfluenceCulturalFraming2007; @PersonalCommunicationAnonymous2019]), coworking and information exchange, and a trust network. Socioeconomic measures, many of which are useful proxy measures of culture change (e.g., a low ratio of cattle-to-cash crops), are useful for clarifying interrelationships between concepts and socioecological contexts. Here, correlated measures are assessed with an assortativity index [@newmanAssortativeMixingNetworks2002] for variables assigned to network nodes, resulting in a standard "correlation" (assortativity) coefficient, $r$. Our analysis scripts are included in the working repository at [github.com/alightner/evoRelSci](https://github.com/alightner/evoRelSci).
+
+# Cross-Cultural Analysis Component
+
+What is the cross-cultural role of specialized expertise in small-scale societies? Religious figures, who are commonly liminal in status and regarded with varying levels of fear, deference, and prestige [@henrichEvolutionPrestigeFreely2001a; @macePopulationStructuredWitchcraft2018; @maussGeneralTheoryMagic2001], often have special knowledge and insights. This study component uses existing ethnography to test the hypothesis that religious (and, where mentioned, scientific) experts have extensive knowledge in domains such as social conflict resolution, political and wartime strategizing, environmental pattern detection, social pattern detection through gossip, and medical and botanical knowledge [@blackwell2009life; @blackwellShamanismEfficaciousExceptionalism2018; @purzyckiFindingMindsNatural2012; @winkelmanCrossculturalStudyMagicoreligious]. Relatedly, it incorporates the hypotheses that experts give advice when social conflict and environmental uncertainty arise, and use strategic randomization to settle disputes when a solution is intractable [@harmgartMiracleRandomizationDevice2006; @leesonOracles2014a]. Previous cross-cultural analyses use population-level coded data from the Standard Cross-Cultural Sample to help understand recurring shaman practices [@winkelmanCrossculturalStudyMagicoreligious]. In such analyses, each culture has one value on each variable. Our analysis will instead use primary ethnographic sources to assess within-group *variation* in multiple cultures.
+
+## Cross-cultural methods and data analyses
+
+The cross-cultural study component uses the electronic Human Relations Area Files (eHRAF), a digitized database containing over a million pages of primary ethnographic source materials from over three hundred cultures, coded by topics at the paragraph level [@ember2009cross]. We will use the Probability Sample, a stratified random sample of paragraph text data relevant to our analyses. Collected data in our sample will be initially generated by OCM identifier codes 791 (magicians and diviners), 792 (prophets and ascetics), 793 (priesthood), 797 (missions), 798 (martyrs), 815 (science), and 816 (applied science), and filtered to include descriptions of religious and/or scientific experts as our final sample. 
+
+Each paragraph in our sample will be coded based on a pre-determined coding scheme that reflects expected knowledge and service domains. Several OCM codes already correspond to a range of possibly relevant domains, including warfare (720-729), social conflict (730-739), health and welfare (740-749), illness and medicine (750-759), political strategizing (660-669), offenses and sanctions (680-689), justice (690-699), and ethnoscientific knowledge (820-829). To explicitly consider societies with competing belief systems, we separately include binary coded presence/absence variables based on acculturation and culture contact (177, 178). Data analyses will use dimension reduction techniques and Bayesian regression modeling [@mcelreathStatisticalRethinkingBayesian2015] to infer relationships between religious and scientific experts and particular knowledge and service domains.
+
+# Computational Modeling Component
+
+Can costly investments in efficacious knowledge and decision services by a few specialists provide benefits to social learners? The proposed study hypothesizes that adaptive knowledge specialization occurs in a biological market of cognitive services, establishing mutually beneficial relationships among experts and believers. This perspective can complement previous approaches to modeling social and individual learning strategies [@boydWhyCultureCommon1996; @enquistCriticalSocialLearning2007; @rendellRogersParadoxRecast2010; @rendellWhyCopyOthers2010], and explain recurring social roles (e.g., "shamans") that are highly invested in understanding social and natural worlds. However, it rests on some assumptions that are subject to debate. This study component expands on and formalizes our theoretical perspective, addressing at least two possible criticisms. 
+
+First, some might argue that specialized expertise of knowledge and services restricts cultural toolkits to a small subset of the population, increasing the chance of knowledge loss and preventing cumulative culture and cultural complexity [@eerkensCulturalTransmissionCopying2005b; @henrichDemographyCulturalEvolution2004a; @klinePopulationSizePredicts2010; @willardEvolutionShamanCultural2018]. How can cultural knowledge accumulate with a few intensive producers? Second, exchanging knowledge and services for material or social benefits could be susceptible to defection [@boydEvolutionReciprocitySizable1988; @singhCulturalEvolutionShamanism2018]. Consumers might "free ride" by receiving knowledge and services without conferring social or material capital [@priceEvolutionLeaderFollower2014]. Experts might also deceive or provide ineffective services, particularly when efficacy is difficult to verify [@akerlof1978market; @mercierEnigmaReason2017]. On this view, religious specialization could be an exploitative culturally evolved strategy [@singhCulturalEvolutionShamanism2018]. 
+
+We therefore explore whether or not a theoretical reframe might explain adaptive knowledge specialization as a *driver* of cumulative culture: Can individuals go beyond their baseline cognitive capacities by cooperating, sharing cognitive services and insights in a biological market? We then expand on existing ideas about the role of costly signals of commitment, not only among believers [@bulbulia2004religious; @henrichEvolutionCostlyDisplays2009; @sosisSignalingSolidaritySacred2003], but also among religious and non-religious experts who might take on costly burdens, such as celibacy, fasting, and exile [e.g., @whiteheadDarknessSecrecyAnthropology2004; @tuzinCassowaryRevengeLife1997; @epicurusEssentialEpicurusLetters1993; @monkLudwigWittgensteinDuty1991]. Here we ask if exploitation by experts can be avoided with their costly signals of commitment.
+
+## Computational modeling methods
+
+Modeling work will deploy a combination of analytic and agent-based models (ABM) implemented in C++, and data will be analyzed in R. To make our *a priori* assumptions explicit for our ABM, we will publish an Overview, Design Concepts, and Details (ODD) protocol report [@railsbackAgentBasedIndividualBasedModeling2011] with all model code and analysis scripts on our publicly available Github repository.
+
+# Compatibility of Research Components with the Project Theme
+
+The proposed study relates to the broader project theme by addressing, quoting the RFP, "why and how particular forms of religious and scientific meaning-making systems prove adaptive in particular kinds of environments". The Monduli fieldsite is especially compelling because it is characterized by substantially changing cultural, social, economic, and ecological conditions. Maasai institutions traditionally have meaning in terms of a normative ideal of pure pastoralism linking natural, supernatural, social worlds, imbuing obligations and honor with "meaning and purpose in life" for Maasai. Less clear is how deeply personal meaning systems fare alongside competing Christian and scientific ones. This competition occurs in a highly unpredictable ecology, and traditional solutions might be abandoned for more effective but novel ideas. 
+
+The study conceptualizes this dynamic as a biological market, asking: "is the system flexible enough to accommodate the improvement that [a novel idea] offers"? Do people trust novel but efficacious services? Are traditional beliefs completely displaced, do people consider belief systems separately (e.g., religion and science), or will traditional ideas be grounded in novel ideas? Each project component considers domains and services in context; if particularly dynamic and unpredictable environments put a premium on individual learning, novel services, and rare insight, then can these be the "kinds of environmental conditions [favoring] different types or features of meaning-making systems"? And when experts must gain trust and consensus, do costly signals of commitment manifest in behaviors among "the extremely devout" leaders? 
+
+# Timeline of Project Deliverables
+
+## Fieldwork data collection: 01 July 2020 -- 01 January 2021
+
+Phases 1 and 2 data collection for the proposed fieldwork component will occur during this timeframe. This commences immediately following an NSF funded project studying cultural and economic changes at the fieldsite (01 August 2019 -- 01 July 2020), during which basic preliminary data will be collected (e.g., socioeconomic and household demographic data, semi-structured/qualitative interviews, kinship, income and wealth distribution).
+
+## Publications and outreach: 01 January 2021 -- 01 July 2022
+
+Fieldwork data analyses and relevant publications will be written and submitted prior to April 2021. In this timeframe, we continue work on developing and publishing an R package improving on existing cultural consensus methods. Fieldwork results will be ready for presentation at 2021/2022 HBES conference panels and AAAS 2022. Lightner is interested in assisting with panel organization, and attending proposed subgrantee meetings listed in the RFP. The cross-cultural analysis and computational modeling components will be completed alongside fieldwork data analyses during this timeframe. Priorities include publishing cross-cultural analysis and computational modeling results, public outreach to a broader audience, and collaboration with other subgrantees on the project.
+
+# Budget and Justification
+
+The proposed study requests $\$50\,000$ toward a doctoral dissertation subgrant. The 6-month fieldwork will be allocated about $\$12\,300$, which is based on previous flight airfare from Seattle to Kilimanjaro airport at $\$1\,500$ roundtrip, leaving $\$60$ per day to pay for lodging, in-country travel, participant incentives, and a Maasai research assistant for the duration of the planned fieldwork. The remaining $\$37\,700$ will go toward the remaining 18-month research fellowship at $\$2\,094.44$ per month while Lightner completes the remaining study components and PhD dissertation. This monthly rate is comparable to the teaching assistantship stipend currently offered to graduate students at Washington State University in Vancouver, and can cover basic necessities and costs of living in the area. When they arise, this monthly amount will also be put toward registration fees and travel costs for meetings and conference presentations.
+
+# References {-}
+
+<div id="refs"></div>
+
+\newpage 
+
+# (APPENDIX) Appendix {-}
+
+# Supplementary Materials
+
+## Figure 1. Power analysis for fieldwork sample sizes
+
+![](images/power-curve.png)
+
+To approximate appropriate sample sizes for structured surveys, we created a power curve by assuming medium effect sizes and simulating appropriate tests on binary and categorical responses (e.g., yes/no responses to questions about trust, efficacy, belief; categorical responses about knowledge and service domains associated with experts; "binary" and "domains", respectively) and Wilcoxon rank-sum tests on competence scores among experts vs. believers ("expertise"). Sample sizes are selected to approximate power $>0.8-0.95$ across tests. For more detail, see our [github repository](https://github.com/alightner/evoRelSci).
+
+\newpage
+
+## Table 1. Description of fieldwork predictions
+
+Predictions are identified ("predict id") in support of various relevant hypotheses and a plainly stated prediction, based largely on binary and categorical data from structured surveys (phase 1) and competence scores (phase 2). For brevity, we use the notational format "$X \sim Y$" to abbreviate, "$X$ is associated with $Y$". Specified support criteria for each prediction is listed in table 2.
+
+\begin{center}
+\def\arraystretch{1.25}%
+  \begin{tabular}{l l l}
+  \hline
+  \textbf{predict id} & \textbf{relevant hypotheses} & \textbf{prediction} \\ [0.5 ex]
+  \hline
+  1 & i & laibon prophets $\sim$ social conflict (SC) \\
+  
+  2 & i&science advisors $\sim$ economic challenges (EC) \\
+  
+  3 &i,ii& each local expert $\sim$ unique problem domains (U)  \\
+  4 & i,ii&overlapping problem domains (O) $\sim$ high conflict, low consensus  \\
+
+  5 &i,ii &science advisors (agricultural sciences) $\sim$ low herd size (TLU) \\
+  6 &i,ii &science advisors (medicine) $\sim$ novel diseases (ND)  \\
+  7 &i,ii &science advisors (medicine) $\sim$ access to medicine  \\
+  8 &i,ii &laibon healers $\sim$ common diseases (CD)  \\
+  9 &i,ii &laibon healers $\sim$ low access to medicine \\
+  
+  10 & ii &individual trust in experts $\sim$ local consensus (neighbors) about trust \\
+  11 & ii&each expert is highly important in trust network  \\
+  12 &i,iii& laibon healers $\sim$ plant knowledge (PK)  \\
+  13 &i,iii &expert problem domains $\sim$ high knowledge in problem domain \\
+  \end{tabular}
+\end{center}
+
+\newpage
+
+## Table 2. Specified support criteria for fieldwork predictions
+
+Specified support criteria for each prediction ("predict id") described in table 1. Several abbreviations are specified in each corresponding prediction in table 1, and for local experts (Lexp), LP: laibon prophet, LH: laibon healer, and SA: science advisor. Several predictions are based largely on binary and categorical data from structured surveys, and therefore contain conditional probabilities about experts and problem domains. 
+
+For example, $Pr(LP=1|SC=1)>Pr(LP=0|SC=1)$ reads, "given the presence of a social conflict ($SC=1$), the probability of identifying a service from a laibon prophet ($LP=1$) will be greater than that of an expert who is not a laibon prophet ($LP=0$)". Analyses listed also include response variance about trust in overlapping vs. unique expertise in problem domains ($\sigma_O$ vs. $\sigma_U$), TLU (tropical livestock units), distance from a medical provider ($\ell$), individual trust ($t$), network degree ($k$) and betweenness centrality ($C_B$), and domain-specific competence score ($\lambda$).
+
+\renewcommand*{\arraystretch}{1.25}
+  \begin{tabular}{l l}
+  \hline
+  \textbf{predict id} & \textbf{support criteria} \\ [0.5 ex]
+  \hline
+  1 & $Pr(LP=1|SC=1)>Pr(LP=0|SC=1)$ \\
+  
+  2 & $Pr(SA=1|EC=1)>Pr(SA=0|EC=1)$ \\
+  
+  4 & $\sigma_O > \sigma_U$ (trust responses) \\
+  
+  5 & $Pr(SA=0) \sim TLU$  \\
+  6 & $Pr(SA=1|ND=1) > Pr(SA=1|ND=0)$ \\
+  7 & $Pr(SA=0) \sim \ell$ \\
+  8 & $Pr(LH=1|CD=1) > Pr(LH=1|CD=0)$ \\
+  9 & $Pr(LH=1) \sim \ell$ \\
+  
+  10 & $Pr(t=1) \sim \frac{k=1}{k}$ \\
+  11 & $C_{B_{Lexp}} > \overline{C}_B$, $k_{Lexp} > \overline{k}$  \\
+  12 & $\lambda_{PK_{LH}} > \overline{\lambda}_{PK}$ \\
+  13 & $\lambda_{Lexp} > \overline{\lambda}$, per domain \\
+  \end{tabular}
+
+## Github repository link
+
+For a more detailed walkthrough of our simulated data, power analysis, planned analyses, and survey drafts with structured and exploratory questions, our github repository is available at [github.com/alightner/evoRelSci](https://github.com/alightner/evoRelSci). This repository will be maintained over the course of the proposed study, and will be open for interested collaborators on this project.
+
