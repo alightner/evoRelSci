@@ -1,0 +1,36 @@
+---
+output: pdf_document
+---
+\pagenumbering{gobble}
+
+## Table 2. Specified support criteria for fieldwork predictions
+
+Specified support criteria for each prediction ("predict id") described in table 1. Several abbreviations are specified in each corresponding prediction in table 1, and for local experts (Lexp), LP: laibon prophet, LH: laibon healer, and SA: science advisor. Several predictions are based largely on binary and categorical data from structured surveys, and therefore contain conditional probabilities about experts and problem domains. 
+
+For example, $Pr(LP=1|SC=1)>Pr(LP=0|SC=1)$ reads, "given the presence of a social conflict ($SC=1$), the probability of identifying a service from a laibon prophet ($LP=1$) will be greater than that of an expert who is not a laibon prophet ($LP=0$)". Analyses listed also include response variance about trust in overlapping vs. unique expertise in problem domains ($\sigma_O$ vs. $\sigma_U$), TLU (tropical livestock units), distance from a medical provider ($\ell$), individual trust ($t$), network degree ($k$) and betweenness centrality ($C_B$), and domain-specific competence score ($\lambda$).
+
+\renewcommand*{\arraystretch}{1.25}
+  \begin{tabular}{l l}
+  \hline
+  \textbf{predict id} & \textbf{support criteria} \\ [0.5 ex]
+  \hline
+  1 & $Pr(LP=1|SC=1)>Pr(LP=0|SC=1)$ \\
+  
+  2 & $Pr(SA=1|EC=1)>Pr(SA=0|EC=1)$ \\
+  
+  4 & $\sigma_O > \sigma_U$ (trust responses) \\
+  
+  5 & $Pr(SA=0) \sim TLU$  \\
+  6 & $Pr(SA=1|ND=1) > Pr(SA=1|ND=0)$ \\
+  7 & $Pr(SA=0) \sim \ell$ \\
+  8 & $Pr(LH=1|CD=1) > Pr(LH=1|CD=0)$ \\
+  9 & $Pr(LH=1) \sim \ell$ \\
+  
+  10 & $Pr(t=1) \sim \frac{k=1}{k}$ \\
+  11 & $C_{B_{Lexp}} > \overline{C}_B$, $k_{Lexp} > \overline{k}$  \\
+  12 & $\lambda_{PK_{LH}} > \overline{\lambda}_{PK}$ \\
+  13 & $\lambda_{Lexp} > \overline{\lambda}$, per domain \\
+  \end{tabular}
+
+
+
