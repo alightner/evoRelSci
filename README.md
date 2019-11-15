@@ -1,5 +1,9 @@
 # Project: The Evolution of Religious and Scientific Beliefs as Coexisting Meaning Making Systems
 
+**If you were directed here from the grant proposal:** A PDF of the supplementary materials (figure 1, tables 1 and 2) [can be viewed here](LIGHTNER-supplementary.pdf) or by opening the `LIGHTNER-supplementary.pdf` file in the main directory.
+
+# Overview
+
 This repo is dedicated to publishing materials for a project investigating the evolutionary origins of religious and scientific belief systems, carried out by PhD candidate Aaron Lightner and his PhD committee chair, Edward Hagen. In this project, are specifically examining the relationship between specialized expertise in religion and science (*experts*), and belief and deference to experts based on trust, efficacy, and authority (*believers*). Why are some people highly invested in knowledge and providing decision-making services for their communities? How and why do people in societies choose who to believe?
 
 Our aim is for this repository to be maintained over the course of the proposed study, and to be open for interested collaborators on the broader project. This repo currently provides a more detailed walkthrough of our simulated data, power analysis, planned analyses, and survey drafts with structured and exploratory questions. The more detailed project proposal is in the PDF document, `LIGHTNER-subgrant-proposal.pdf`. The code can be viewed and the PDF regenerated in the Rmarkdown (`.Rmd`) file by the same name. All datasets used for preliminary, planned, and power analyses are in the `/datasets` folder, and plots are saved in the `/images` directory.
@@ -8,7 +12,7 @@ Here, we provide **supplementary materials** referenced in our fieldwork analyse
 
 # Supplementary Materials 
 
-This section provides an overview of our power analysis (figure 1), predictions (tables 1 and 2), and some exploratory social network analyses. While we include the figure and tables in this README file, the supplementary materials referenced in the proposal can also be viewed as a shortened PDF in the file, `LIGHTNER-supplementary.pdf`.
+This section provides an overview of our power analysis (figure 1), predictions (tables 1 and 2), and some exploratory social network analyses. The supplementary materials referenced in the proposal can also be viewed as a shortened PDF in `LIGHTNER-supplementary.pdf`, [or by clicking here](LIGHTNER-supplementary.pdf).
 
 ## Figure 1. Power analysis for determining sample sizes
 
@@ -16,7 +20,7 @@ Sample sizes in the fieldwork study, as described in the PDF project proposal, a
 
 ![power curve plot](images/power-curve.png)
 
-To approximate appropriate sample sizes for structured surveys, we created a power curve by assuming medium effect sizes and simulating appropriate tests on binary and categorical responses (e.g., yes/no responses to questions about trust, efficacy, belief; categorical responses about knowledge and service domains associated with experts; "binary" and "domains", respectively) and Wilcoxon rank-sum tests on competence scores among experts vs. believers ("expertise"). Sample sizes are selected to approximate power $>0.8-0.95$ across tests.
+To approximate appropriate sample sizes for structured surveys, we created a power curve by assuming medium effect sizes and simulating appropriate tests on binary and categorical responses (e.g., yes/no responses to questions about trust, efficacy, belief; categorical responses about knowledge and service domains associated with experts; "binary" and "domains", respectively) and Wilcoxon rank-sum tests on competence scores among experts vs. believers ("expertise"). Sample sizes are selected to approximate power >0.8-0.95 across tests.
 
 Generating the power analysis dataset ahead of time saves you, dear reader, time spent on waiting for a simulation to run -- but if you are interested in making revisions and/or re-running and re-generating the `power-analysis.csv` dataset, you can go into `power-analysis.R` and uncomment the `write.table()` function (line 93), then re-run `pwr_curve_plot.R` to re-generate the power curve plot.
 
